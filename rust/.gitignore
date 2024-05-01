@@ -1,0 +1,18 @@
+# Compiled files
+/target/
+
+# Rustdoc output
+/doc/
+
+# Cargo lock file (keep this if using a library)
+Cargo.lock
+
+# Coverage data
+*.cov
+
+# Backup files
+*~
+
+# Other typical ignore patterns
+.DS_Store
+Thumbs.db
