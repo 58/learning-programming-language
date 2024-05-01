@@ -1,18 +1,14 @@
-# Compiled files
-/target/
+# Ignore 'target' directory in any subprojects
+**/target/
 
-# Rustdoc output
-/doc/
+# Ignore 'Cargo.lock' in any subprojects (keep this if you're developing a library)
+**/Cargo.lock
 
-# Cargo lock file (keep this if using a library)
-Cargo.lock
+# Optional: Ignore Rustdoc output in any subprojects
+**/doc/
 
-# Coverage data
+# Optional: Ignore other typical files
 *.cov
-
-# Backup files
 *~
-
-# Other typical ignore patterns
 .DS_Store
 Thumbs.db
